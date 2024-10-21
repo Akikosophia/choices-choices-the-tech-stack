@@ -17,11 +17,11 @@ try {
   articles.value = response.data; // Pas aan op basis van de structuur van je API
 } catch (error) {
   console.error('Error fetching data:', error);
-  articles.value = []; // Geef een lege array terug bij een fout
+  articles.value = []; 
 }
 </script>
 
 <style scoped>
-/* Voeg hier je stijlen toe */
+
 </style>
 
