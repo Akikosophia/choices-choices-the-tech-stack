@@ -1,12 +1,11 @@
 <template>
-<h5> Akiko</h5>
+  <div>
+    <h2>Dit is een testcomponent</h2>
+  </div>
 </template>
 
-
 <script>
-
 export default {
-  name:"test",
+  name: 'TestComponent',
 };
-
 </script>

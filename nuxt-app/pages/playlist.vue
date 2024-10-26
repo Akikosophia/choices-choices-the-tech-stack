@@ -1,4 +1,10 @@
 <template>
+
+<div>
+    <h1>Mijn Playlist Pagina</h1>
+    <Test />
+  </div>
+
 <body>
   <main>
     <h1>Lessons</h1>
@@ -60,7 +66,7 @@
       </div>
     </section>
 
-    <Carousel />
+    <carousel />
     
   </main>
 </body>
@@ -68,17 +74,18 @@
 </template>
 
 <script>
-
-import Test from '@/components/Carousel.vue';
+import Test from '@/components/test.vue';
+import Carousel from '@/components/carousel.vue'; 
 
 export default {
   name: 'playlist',
   components: {
+    Test,
     Carousel,
-  }
-}
-
+  },
+};
 </script>
+
 
 <style scoped>
   :root {
