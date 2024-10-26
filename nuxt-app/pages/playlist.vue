@@ -1,6 +1,4 @@
 <template>
-
-
 <body>
   <main>
     <h1>Lessons</h1>
@@ -62,16 +60,27 @@
       </div>
     </section>
 
-
+    <Carousel />
     
   </main>
 </body>
 
-   
-
 </template>
 
-<style>
+<script>
+
+import Test from '@/components/Carousel.vue';
+
+export default {
+  name: 'playlist',
+  components: {
+    Carousel,
+  }
+}
+
+</script>
+
+<style scoped>
   :root {
     --playlist-bg-color: #471871;
     --btn-color: #1cb854;
