@@ -50,18 +50,23 @@
               <figure>
                 <img src="/Frame 104.svg" class="schildpad" alt="pinguin" />
                 <figcaption>
-                      <div class="play-button">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="12" cy="12" r="10" fill="rgba(0, 0, 0, 0.6)" />
-                    <polygon points="10,8 16,12 10,16" fill="white" />
-                  </svg>
-                </div>
+                  <div class="play-button">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        fill="rgba(0, 0, 0, 0.6)"
+                      />
+                      <polygon points="10,8 16,12 10,16" fill="white" />
+                    </svg>
+                  </div>
                   <h3>Six o’clock</h3>
                   <p class="beschrijving">
                     A group of friends try to take over the playground. Jesper
@@ -92,19 +97,24 @@
               <figure>
                 <img src="/Frame 105.svg" class="schildpad" alt="schildpad" />
                 <figcaption>
-                     <div class="play-button">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="12" cy="12" r="10" fill="rgba(0, 0, 0, 0.6)" />
-                    <polygon points="10,8 16,12 10,16" fill="white" />
-                  </svg>
-                </div>
-                  <h3>Toys on the Orient </h3>
+                  <div class="play-button">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        fill="rgba(0, 0, 0, 0.6)"
+                      />
+                      <polygon points="10,8 16,12 10,16" fill="white" />
+                    </svg>
+                  </div>
+                  <h3>Toys on the Orient</h3>
                   <p class="beschrijving">
                     A child loses his toy during a train ride. He is determined
                     to find it back.
@@ -134,24 +144,28 @@
         <!-- Tweede slide -->
         <li class="slide">
           <ul class="slide-content">
-
-                <li>
+            <li>
               <figure>
                 <img src="/Frame 105.svg" class="schildpad" alt="schildpad" />
                 <figcaption>
-                     <div class="play-button">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="12" cy="12" r="10" fill="rgba(0, 0, 0, 0.6)" />
-                    <polygon points="10,8 16,12 10,16" fill="white" />
-                  </svg>
-                </div>
-                  <h3>Toys on the Orient </h3>
+                  <div class="play-button">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        fill="rgba(0, 0, 0, 0.6)"
+                      />
+                      <polygon points="10,8 16,12 10,16" fill="white" />
+                    </svg>
+                  </div>
+                  <h3>Toys on the Orient</h3>
                   <p class="beschrijving">
                     A child loses his toy during a train ride. He is determined
                     to find it back.
@@ -176,23 +190,27 @@
               </div>
             </li>
 
-            
-           <li>
+            <li>
               <figure>
                 <img src="/Frame 104.svg" class="schildpad" alt="pinguin" />
                 <figcaption>
-                      <div class="play-button">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="12" cy="12" r="10" fill="rgba(0, 0, 0, 0.6)" />
-                    <polygon points="10,8 16,12 10,16" fill="white" />
-                  </svg>
-                </div>
+                  <div class="play-button">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        fill="rgba(0, 0, 0, 0.6)"
+                      />
+                      <polygon points="10,8 16,12 10,16" fill="white" />
+                    </svg>
+                  </div>
                   <h3>Six o’clock</h3>
                   <p class="beschrijving">
                     A group of friends try to take over the playground. Jesper
@@ -219,7 +237,7 @@
               </div>
             </li>
 
-          <li>
+            <li>
               <figure>
                 <img src="/Frame 103.svg" class="schildpad" alt="schildpad" />
                 <div class="play-button">
@@ -259,33 +277,33 @@
                 </div>
               </div>
             </li>
-
-
-
-    
           </ul>
         </li>
 
         <!-- Derde slide -->
         <li class="slide">
           <ul class="slide-content">
-           
-        <li>
+            <li>
               <figure>
                 <img src="/Frame 104.svg" class="schildpad" alt="pinguin" />
                 <figcaption>
-                      <div class="play-button">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="12" cy="12" r="10" fill="rgba(0, 0, 0, 0.6)" />
-                    <polygon points="10,8 16,12 10,16" fill="white" />
-                  </svg>
-                </div>
+                  <div class="play-button">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        fill="rgba(0, 0, 0, 0.6)"
+                      />
+                      <polygon points="10,8 16,12 10,16" fill="white" />
+                    </svg>
+                  </div>
                   <h3>Six o’clock</h3>
                   <p class="beschrijving">
                     A group of friends try to take over the playground. Jesper
@@ -312,22 +330,27 @@
               </div>
             </li>
 
-              <li>
+            <li>
               <figure>
                 <img src="/Frame 104.svg" class="schildpad" alt="pinguin" />
                 <figcaption>
-                      <div class="play-button">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="12" cy="12" r="10" fill="rgba(0, 0, 0, 0.6)" />
-                    <polygon points="10,8 16,12 10,16" fill="white" />
-                  </svg>
-                </div>
+                  <div class="play-button">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        fill="rgba(0, 0, 0, 0.6)"
+                      />
+                      <polygon points="10,8 16,12 10,16" fill="white" />
+                    </svg>
+                  </div>
                   <h3>Six o’clock</h3>
                   <p class="beschrijving">
                     A group of friends try to take over the playground. Jesper
@@ -354,22 +377,27 @@
               </div>
             </li>
 
-              <li>
+            <li>
               <figure>
                 <img src="/Frame 104.svg" class="schildpad" alt="pinguin" />
                 <figcaption>
-                      <div class="play-button">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 24 24"
-                    fill="white"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="12" cy="12" r="10" fill="rgba(0, 0, 0, 0.6)" />
-                    <polygon points="10,8 16,12 10,16" fill="white" />
-                  </svg>
-                </div>
+                  <div class="play-button">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 24 24"
+                      fill="white"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        fill="rgba(0, 0, 0, 0.6)"
+                      />
+                      <polygon points="10,8 16,12 10,16" fill="white" />
+                    </svg>
+                  </div>
                   <h3>Six o’clock</h3>
                   <p class="beschrijving">
                     A group of friends try to take over the playground. Jesper
@@ -395,8 +423,6 @@
                 </div>
               </div>
             </li>
-         
-
           </ul>
         </li>
       </ul>
@@ -506,12 +532,11 @@ p {
   font-size: 16px;
 }
 
-
 .container {
   width: 100%;
   height: 100%;
   overflow-y: hidden;
-  transform: translateX(3px);
+  transform: translateX(8px);
 }
 
 .carousel {
@@ -556,15 +581,15 @@ p {
   background-color: var(--card-bg-color);
   border-radius: 8px;
   position: relative;
-  width: 300px;
+  width: 295px;
 }
 
 .vlag-icon {
   position: absolute;
   right: 10px;
   top: 10px;
-     width: 28px;
-   height: auto;
+  width: 28px;
+  height: auto;
 }
 
 figure {
@@ -743,10 +768,74 @@ img.schildpad {
 }
 
 .download-icon {
-    width: 28px;
-   height: auto;
-    margin-bottom: 30px;
+  width: 28px;
+  height: auto;
+  margin-bottom: 30px;
 }
+
+  @media screen and (min-width: 375px) {
+    .container {
+      transform: translateX(35px);
+    }
+    
+    .carousel-button {
+      transform: translateX(-22px);
+  }
+    
+  }
+
+  @media screen and (min-width: 425px) {
+    .container{
+      transform: translateX(60px);
+
+    }
+    
+    .carousel-button {
+      transform: translateX(-50px);
+  }
+
+}
+
+  @media screen and (min-width: 705px) {
+    .container{
+      transform: translateX(228px);
+   
+    }
+    
+    .carousel-button {
+      transform: translateX(-220px);
+  }
+
+  }
+
+    @media screen and (min-width: 985px) {
+        .container{
+      transform: translateX(310px);
+   
+    }
+
+    
+    .carousel-button {
+      transform: translateX(-220px);
+  }
+
+    }
+    @media screen and (min-width: 1440px) {
+        .container{
+          transform: translateX(530px);
+        }
+
+             .carousel ul {
+    gap: 5px; 
+  }
+
+      
+    .carousel-button {
+      transform: translateX(-520px);
+  }
+  
+    }
+
 
 
 </style>

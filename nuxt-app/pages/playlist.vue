@@ -1,9 +1,5 @@
 <template>
 
-<div>
-    <Test />
-  </div>
-
 <body>
   <main>
     <h1>Lessons</h1>
@@ -28,13 +24,13 @@
               class="playbutton-orange"
               alt="play-button"
             />
-            <p class="tijd">31 min. 55 sec</p>
+            <p class="time">31 min. 55 sec</p>
           </div>
         </article>
 
         <article class="maak-playlist">
           <img src="/Group 321.svg" class="playlist-icon" alt="playlist-icon" />
-          <p class="playlist-text">Make a playlist !</p>
+          <p class="playlist-text">Make a playlist!</p>
           <p></p>
           <p class="favorite-text">Add your favorite stories in one playlist</p>
         </article>
@@ -66,6 +62,11 @@
     </section>
 
     <carousel />
+
+    <div>
+    <Test />
+  </div>
+
     
   </main>
 </body>
@@ -84,7 +85,6 @@ export default {
   },
 };
 </script>
-
 
 
 
@@ -110,7 +110,6 @@ export default {
 
   body {
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
     background-color: var(--playlist-bg-color);
     margin: 0;
     padding: 0;
@@ -131,7 +130,7 @@ export default {
   }
 
   a.button-listening {
-    font-size: 1em;
+    font-size: 16px;
     color: var(--heading-font-color);
     background-color: var(--btn-color);
     padding: 8px 90px;
@@ -164,6 +163,10 @@ export default {
     background-color: var(--bg-color);
   }
 
+  section.content {
+  transform: translateX(30px);
+  }
+
   article.kaart article.maak-playlist {
     background-color: var(--card-bg-color-two);
   }
@@ -181,12 +184,12 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 105px;
-    height: 175px;
+    width: 120px;
+    height: 200px;
     border-radius: 10px;
     background-color:var(--card-bg-color);
     padding: 10px;
-    transform: translateX(-18px);
+    transform: translateX(-8px);
   }
 
   .tijd-en-playbutton {
@@ -195,7 +198,7 @@ export default {
   }
 
   img.octopus {
-    width: 100px;
+    width: 115px;
     height: 95px;
     object-fit: cover;
     border-radius: 8px;
@@ -204,7 +207,8 @@ export default {
   img.playbutton-orange {
     width: 24px;
     height: 24px;
-    transform: translateX(-10px);
+    transform: translateX(5px);
+    margin-bottom: 10px;
   }
 
   img.playlist-icon {
@@ -214,7 +218,7 @@ export default {
 
   .titel {
     font-size: 1.3em;
-    transform: translateX(-18px);
+    transform: translateX(-5px);
   }
 
   h2 {
@@ -222,12 +226,13 @@ export default {
     text-align: left;
     color: var(--heading-font-color);
     margin-bottom: 10px;
-    transform: translateX(-13px);
+    transform: translateX(-20px);
   }
 
   p {
     font-size: var(--card-time-font-size);
     line-height: 12px;
+    font-size: 16px;
     text-align: left;
   }
 
@@ -237,34 +242,33 @@ export default {
     color: var(--card-font-color);
     line-height: 16.5px;
     margin: 0;
+    font-size: 16px;
     margin-left: 5px;
+    margin-bottom: 5px;
   }
 
   .playlist-text {
-    color: var(--playlistcard-font-color);
+    color: white;
     font-weight: 600;
     margin: 0;
-    font-size: 12px;
-    line-height: 16.5px;
-    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 12px;
   }
 
   .favorite-text {
-    color: var(--playlistcard-font-color);
-    margin: 0;
-    margin-bottom: 10px;
+    color: white;
+    margin-bottom: 15px;
     margin-left: 5px;
-    margin-right: 5px;
-    font-size: 9px;
     font-weight: 300;
-    line-height: 12px;
+    line-height: 15px;
+    font-size: 16px;
   }
 
   .buttons {
     display: flex;
     justify-content: center;
     gap: 10px;
-    transform: translateX(-82px);
+    transform: translateX(-77px);
     text-decoration: none;
   }
 
@@ -276,7 +280,6 @@ export default {
     background-color: var(--languages-btn-color);
     padding: 3px 8px;
     border-radius: 10px;
-    margin-bottom: 10px;
     text-decoration: none;
   }
 
@@ -285,9 +288,9 @@ export default {
     text-decoration: none;
     color: var(--card-font-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 18px;
     margin-left: 3px;
+     font-size: 16px;
   }
 
   .ned-vlag,
@@ -300,13 +303,18 @@ export default {
 
   h2.storie-titel {
     margin-top: 1em;
-    transform: translateX(-75px);
+      transform: translateX(-75px);
   }
 
 
   img.playlist-icon {
     margin-top: 22px;
     margin-bottom: 8px;
+  }
+
+  p.time {
+    margin-left: 10px;
+    margin-top: 15px;
   }
 
 </style>
