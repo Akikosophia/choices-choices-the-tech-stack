@@ -1,7 +1,6 @@
 <template>
 
 <div>
-    <h1>Mijn Playlist Pagina</h1>
     <Test />
   </div>
 
@@ -87,6 +86,8 @@ export default {
 </script>
 
 
+
+
 <style scoped>
   :root {
     --playlist-bg-color: #471871;
@@ -109,6 +110,7 @@ export default {
 
   body {
     font-family: "Poppins", sans-serif;
+    font-size: 16px;
     background-color: var(--playlist-bg-color);
     margin: 0;
     padding: 0;

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Dit is een testcomponent</h2>
+
   </div>
 </template>
 
